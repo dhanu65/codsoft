@@ -1,0 +1,98 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+/* Section styles */
+section {
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 1.6rem; /* Adds a 1-line gap between sections */
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* About section styles */
+#about img {
+    width: 100%;
+    max-width: 200px; /* Makes the image square */
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+/* Skills section styles */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    background: #eee;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects section styles */
+#projects .project {
+    margin-bottom: 2rem;
+}
+
+#projects img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+/* Resume section styles */
+#resume a {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+/* Contact section styles */
+#contact p {
+    margin: 0.5rem 0;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
