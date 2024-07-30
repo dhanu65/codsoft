@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starbucks Coffee</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li class="logo" id="logo">STARBUCKS COFFEE </li> 
+      <li><a href="#" class="nav-link" data-target="home" id="navbars">Home</a></li>
+      <li><a href="#" class="nav-link" data-target="services">Menu</a></li>
+      <li><a href="#" class="nav-link" data-target="contact">Contact</a></li>
+      <li><a href="#" class="nav-link" data-target="login">Login</a></li>
+      
+    </ul>
+  </nav>
+
+
+</header>
+
+<section id="home" class="content active">
+  <div class="home-content">
+    <h1><strong>WELCOME TO</strong></h1>
+    <h2>STARBUCKS COFFEE</h2>
+    <p>Starbucks Corp (Starbucks) is a beverage retailing company. It is one of the leading coffee chains in the world. The company's main activities include purchasing and roasting high-quality coffees, which are sold alongside handcrafted coffee, tea, and other beverages.</p>
+       <button class="btn">Learn More</button>
+  </div>
+</section>
+
+<!-- Add the login popup -->
+<div id="login-popup" class="login-popup">
+  <h2>Login</h2>
+  <form id="login-form">
+    <div class="input-box">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="input-box">
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<!-- Insert the services section here -->
+<section id="services" class="content">
+  <h2>MENU</h2>
+  <div class="menu">
+    <div class="service">
+    <img src="menu1.jpg" alt="Service 1">
+    <h3>Cafe latte</h3>
+    <p>Dark roasted espresso topped with streamed milk</p>
+    <p>Price: &#8377;150</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu2.jpg" alt="Service 2">
+    <h3>Cappuccino</h3>
+    <p>Espresso, steamed with milk and a silky layer of form.</p>
+    <p>Price: &#8377;159</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu3.jpg" alt="Service 3">
+    <h3>Breve</h3>
+    <p>Creamy steamed half and half combined with rich espresso.</p>
+    <p>Price: &#8377;179</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu4.jpg" alt="Service 3">
+    <h3>Fresh Brewed Coffee</h3>
+    <p>Award winning coffee, grounded daily and brewed freash.</p>
+    <p>Price: &#8377;190</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu5.jpg" alt="Service 3">
+    <h3>Americano</h3>
+    <p>Dark roast espresso with hot water;<br>
+    European style coffee</p>
+    <p>Price: &#8377;199</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu6.jpg" alt="Service 3">
+    <h3>Chai or Mate Latte</h3>
+    <p>Tea and spices served steaming hot or ice.<br>
+    Chai is available Sugar-free</p>
+    <p>Price: &#8377;205</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu7.jpg" alt="Service 3">
+    <h3>Italian soda<br>or Creamosa</h3>
+    <p>Soda water and sweet flavoured syrups;<br>
+    add cream for a Creamosa.</p>
+    <p>Price: &#8377;229</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  <div class="service">
+    <img src="menu8.jpg" alt="Service 3">
+    <h3>Not so Hot<br>Chocolate</h3>
+    <p>Rich and famous hot chocolate<br>
+    tapped with whipped cream.</p>
+    <p>Price: &#8377;249</p>
+    <button class="atc">Add To Cart</button>
+  </div>
+  </div>
+</section>
+
+
+<section id="contact" class="content">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p><strong>Email:</strong> example@example.com</p>
+    <p><strong>Phone:</strong> +1 123-456-7890</p>
+    <p><strong>Address:</strong> 123 Street Name, City, Country</p>
+  </div>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" required></textarea>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+</section>
+<section>
+
+
+
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2024 Coffee House. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
